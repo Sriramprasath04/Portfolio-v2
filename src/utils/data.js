@@ -1,0 +1,77 @@
+export const projectsData = [
+    {
+        id : 6,
+        domain: "web",
+        head : "Portfolio v-2",
+        isHosted : false,
+        link: "",
+        gitlink: "",
+        stack : [{l:"React.js"}, {l:"React-Router"}, {l:"Tailwind CSS"}],
+        cont : "Updated version of my portfolio website with React and Tailwindcss.",
+    },
+    {
+        id : 5,
+        domain: "web",
+        head : "Chef Food",
+        isHosted : false,
+        link: "",
+        gitlink: "https://github.com/Sriramprasath04/FoodOrderingApp",
+        stack : [{l:"React.js"}, {l:"React-Router"}, {l:"CSS3"}],
+        cont : "Food Ordering application that enhances the food ordering experience.",
+    },
+    {
+        id : 4,
+        domain: "java",
+        head : "Railway Reservation System",
+        isHosted : false,
+        link: "",
+        gitlink: "https://github.com/Sriramprasath04/Railway-Reservation-System",
+        stack : [{l:"Java ( OOPs )"}],
+        cont : "This application immitates functionalities of the Railway Reservation System.",
+    },
+    {
+        id : 3,
+        domain: "java",
+        head : "Hangman Game",
+        isHosted : false,
+        link: "",
+        gitlink: "https://github.com/Sriramprasath04/Hangman-Game",
+        stack : [{l:"Java"}],
+        cont : "It's a word gussing game. It help childerns learn new words, improve your spelling, and practice your vocabulary.",
+    },
+    {
+        id : 2,
+        domain: "web",
+        head : "Amazon Clone",
+        isHosted : true,
+        link: "https://sriramprasath04.github.io/Amazon-clone/",
+        gitlink: "https://github.com/Sriramprasath04/Amazon-clone",
+        stack : [{l:"HTML5"},{l:"CSS3"}],
+        cont : "It's a simple demonstration of how to recreate the look and feel of one of the world's most popular e-commerce websites.",
+    },
+    {
+        id : 1,
+        domain: "web",
+        head : "Portfolio v-1",
+        isHosted : true,
+        link: "https://sriramprasath04.github.io/Personal-Portfolio/",
+        gitlink: "https://github.com/Sriramprasath04/Personal-Portfolio",
+        stack : [{l:"HTML5"}, {l:"CSS3"}, {l:"JavaScript"}],
+        cont : "My first portfolio website that I've designed and build.",
+    },
+];
+
+export const certficate = [
+    {
+        id: 1,
+        link: "/DSA.png",
+    },
+    {
+        id: 2,
+        link: "/javascript.png",
+    },
+    {
+        id: 3,
+        link: "/python.png",
+    },
+];
