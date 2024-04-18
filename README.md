@@ -19,6 +19,8 @@ This project was built using these technologies.
 
 **🎯 Filter Option**
 
+**🎞️ Slide Show**
+
 **📱 Fully Responsive**
 
 
