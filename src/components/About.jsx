@@ -70,7 +70,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div id="archivements" className={`font-mono flex flex-col items-center justify-center h-80  ${slide === 'archivement'? 'block' : 'hidden'}`}>
+                    <div id="archivements" className={`font-mono flex flex-col items-center justify-center mb-10  ${slide === 'archivement'? 'block' : 'hidden'}`}>
                         <p className="text-center text-red-600 mt-1">Some Noteworthy Archivements</p>
                         <div className=" w-full md:w-4/5 flex flex-col justify-center">
                             <div className="flex mt-2">
