@@ -3,7 +3,7 @@ export const projectsData = [
         id : 6,
         domain: "web",
         head : "Portfolio v-2",
-        isHosted : false,
+        isHosted : true,
         link: "https://portfolio-v2-seven-kappa.vercel.app/",
         gitlink: "https://github.com/Sriramprasath04/Portfolio-v2",
         stack : [{l:"React.js"}, {l:"React-Router"}, {l:"Tailwind CSS"}],
