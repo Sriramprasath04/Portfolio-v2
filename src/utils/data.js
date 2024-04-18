@@ -7,7 +7,7 @@ export const projectsData = [
         link: "",
         gitlink: "",
         stack : [{l:"React.js"}, {l:"React-Router"}, {l:"Tailwind CSS"}],
-        cont : "Updated version of my portfolio website with React and Tailwindcss.",
+        cont : "Updated version of my portfolio website with modern web technologies.",
     },
     {
         id : 5,
@@ -58,20 +58,5 @@ export const projectsData = [
         gitlink: "https://github.com/Sriramprasath04/Personal-Portfolio",
         stack : [{l:"HTML5"}, {l:"CSS3"}, {l:"JavaScript"}],
         cont : "My first portfolio website that I've designed and build.",
-    },
-];
-
-export const certficate = [
-    {
-        id: 1,
-        link: "/DSA.png",
-    },
-    {
-        id: 2,
-        link: "/javascript.png",
-    },
-    {
-        id: 3,
-        link: "/python.png",
     },
 ];
