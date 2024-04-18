@@ -41,30 +41,33 @@ const About = () => {
                 <div className="w-full flex flex-col justify-center items-center my-7">
                     <div id="certification" className={`font-mono flex flex-col justify-center ${slide === null? 'block' : 'hidden'}`}>
                         <p className="text-center text-red-600 mt-1">Course Certfications that I’ve done</p>
-                        <div className="flex gap-2 md:gap-6 lg:gap-10 mt-4">
-                            <button onClick={
-                                ()=>{
-                                    indx-1 === -1? setIndx(arr.length-1) : setIndx(indx-1);
-                                }
-                            }>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
-                                </svg>
-                            </button>
+                        <div className="flex flex-col items-center gap-2 md:gap-6 lg:gap-10 mt-4">
                             <div className="w-96 h-64">
                                 {
                                     <img src={arr[indx]} key={indx} alt="" className="w-full h-full" />
                                 }
                             </div>
-                            <button onClick={
-                                ()=>{
-                                    indx+1 === arr.length? setIndx(0) : setIndx(indx+1);
-                                }
-                            }>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                </svg>
-                            </button>
+                            <div className="flex gap-10 pt-10 md:p-0">
+                                <button className="flex" onClick={
+                                    ()=>{
+                                        indx-1 === -1? setIndx(arr.length-1) : setIndx(indx-1);
+                                    }
+                                }>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                                    </svg>Prev
+                                </button>
+
+                                <button className="flex" onClick={
+                                    ()=>{
+                                        indx+1 === arr.length? setIndx(0) : setIndx(indx+1);
+                                    }
+                                }>Next
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                    </svg>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div id="archivements" className={`font-mono flex flex-col items-center justify-center h-80  ${slide === 'archivement'? 'block' : 'hidden'}`}>
