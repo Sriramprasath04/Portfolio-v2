@@ -4,10 +4,10 @@ import ContactPage from "./components/ContactPage";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Top from "./components/Top";
+import Theme from "./components/Theme";
 
 
 const App = () =>{
-  console.log("loads..");
   return (
     <div className="">
       <Header/>
@@ -16,6 +16,7 @@ const App = () =>{
         <About/>
         <Portfolio/>
           <ContactPage/>
+          <Theme/>
           <Top/>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import heroImg from '../assets/undraw_designer_re_5v95.svg';
+import heroImg from '../assets/bg.svg';
 import Sriramprasath from '../assets/71382002124_Sriramprasath_P.pdf';
 import Quote from './Quote';
 import Scroller from './Scroller';
@@ -11,7 +11,7 @@ const Body = () => {
             <div className =" w-full md:order-1  l md:w-1/2 lg:w-2/5 h-1/2 flex flex-col items-center justify-between text-center md:justify-start md:items-start">
                 <p className ='text-xl '>Hi, Myself</p>
                 <h1 className ='text-2xl mt-2 lg:text-3xl font-extrabold'>Sriramprasath P</h1>
-                <p className='pt-5 px-5 md:px-0 md:w-10/12 lg:text-xl text-center md:text-justify'>Aspiring Software Engineering, a self learner loves to learn cutting edge technologies and improve Myself to attain industry standars.</p>
+                <p className='pt-5 px-5 md:px-0 md:w-10/12 lg:text-xl text-center md:text-justify'>Aspiring Software Developer, a self learner loves to learn cutting edge technologies and improve Myself to attain industry standars.</p>
                 <div className ="mt-9 flex gap-8">
                     <AnchorLink href="#about" className="cursor-pointer rounded text-white hover:text-black font-semibold px-4 py-2 border-2  border-red-600 hover:bg-white bg-red-600" >About me</AnchorLink>
                     <a href={Sriramprasath} download={`Sriramprasath`} className="cursor-pointer rounded text-white hover:text-black font-semibold px-4 py-2 border-2  border-purple-600 hover:bg-white bg-purple-600">Download CV</a>

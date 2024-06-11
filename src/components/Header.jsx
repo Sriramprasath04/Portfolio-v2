@@ -2,8 +2,8 @@ import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header = () => {
-  let d1 ="M6 18 18 6M6 6l12 12"
-  let d2 ="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
+  let d1 = "M6 18 18 6M6 6l12 12"
+  let d2 = "M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
   
   const [show, setShow] = useState(false);
   const [bar, setBar] = useState(d2);
@@ -18,7 +18,8 @@ const Header = () => {
         <div id="header" className="relative flex p-10 pb-0">
             <AnchorLink
               href="#"
-              className="text-3xl font-bold border-r pr-3 mr-5 border-black"
+              className="text-3xl font-bold border-r pr-3 mr-5 border-black "
+            
             >
               Sriramprasath P
             </AnchorLink>

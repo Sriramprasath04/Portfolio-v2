@@ -1,5 +1,15 @@
 export const projectsData = [
     {
+        id: 7,
+        domain: "web",
+        head: "Business Website",
+        isHosted: true,
+        link: "https://agency-website-zeta.vercel.app/",
+        gitlink: "https://github.com/Sriramprasath04/Agency-Website",
+        stack: [{l:"React.js"}, {l:"Tailwind CSS"}],
+        cont: "I have build a Business website template using React.js and Tailwind CSS",
+    },
+    {
         id : 6,
         domain: "web",
         head : "Portfolio v-2",
