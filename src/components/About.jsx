@@ -16,10 +16,9 @@ const About = () => {
                 <h2 className='text-center font-bold text-3xl font-mono'>About me</h2>
                     <p className="text-center md:text-left text-red-600 mt-1">Let me Introduce Myself,</p>
                 <div className="w-4/5 lg:1/2 pt-4">
-                    <p className="text-justify font-mono w-full mx-auto">I’m P. Sriramprasath, Currently pursuing my final year of Computer Science and Engineering at Sri Ramakrishna Institute of Technology. 
+                    <p className="text-justify font-mono w-full mx-auto">I’m P. Sriramprasath, Completed my Bachelor’s in Engineering in the stream of Computer Science and Engineering from Sri Ramakrishna Institute of Technology. 
                     I am self-learner trying to upskill Myself in accordance with the Industry Standards. 
-                    My Major Coursework Focuses On Essential Subjects Such As Operating Systems, Database Management Systems, Computer Networks, Object-Oriented Programming, Data Structures And Algorithms
-                    I’m a team player who has some good problem-solving skills & loves to learn and explore cutting-edge technologies.</p>
+                    I love to create beautiful and functional websites.Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems & loves to learn and explore cutting-edge technologies.</p>
                 </div>
             </div>
             <div className="flex flex-col items-center w-full md:w-4/5">
