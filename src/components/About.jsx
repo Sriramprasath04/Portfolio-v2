@@ -18,7 +18,7 @@ const About = () => {
                 <div className="w-4/5 lg:1/2 pt-4">
                     <p className="text-justify font-mono w-full mx-auto">I’m P. Sriramprasath, Completed my Bachelor’s in Engineering in the stream of Computer Science and Engineering from Sri Ramakrishna Institute of Technology. 
                     I am self-learner trying to upskill Myself in accordance with the Industry Standards. 
-                    I love to create beautiful and functional websites.Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems & loves to learn and explore cutting-edge technologies.</p>
+                    I love to create beautiful and functional websites. Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems & loves to learn and explore cutting-edge technologies.</p>
                 </div>
             </div>
             <div className="flex flex-col items-center w-full md:w-4/5">
@@ -26,7 +26,7 @@ const About = () => {
                     <button className={`px-4 py-2 font-semibold border-b-2 ${active === 'archivement'? 'border-black': ''}`} onClick={()=>{
                         setSlide('archivement');
                         setActive('archivement');
-                    }}>Archivements</button>
+                    }}>Achievements</button>
                     <button className={`px-4 py-2 font-semibold border-b-2 ${active === null? 'border-black': ''}`} onClick={()=>{
                         setSlide(null);
                         setActive(null);
@@ -70,7 +70,7 @@ const About = () => {
                         </div>
                     </div>
                     <div id="archivements" className={`font-mono flex flex-col items-center justify-center mb-10  ${slide === 'archivement'? 'block' : 'hidden'}`}>
-                        <p className="text-center text-red-600 mt-1">Some Noteworthy Archivements</p>
+                        <p className="text-center text-red-600 mt-1">Some Noteworthy Achievements</p>
                         <div className=" w-full md:w-4/5 flex flex-col justify-center">
                             <div className="flex mt-2">
                                 <div>
