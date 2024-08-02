@@ -1,5 +1,15 @@
 export const projectsData = [
     {
+        id: 8,
+        domain: "java",
+        head: "Taxi Booking Application",
+        isHosted: false,
+        link: "",
+        gitlink: "https://github.com/Sriramprasath04/Advanced-Coding-Round/tree/main/Taxi%20Booking",
+        stack: [{l:"Java ( OOPs )"}],
+        cont: "This application immitates the logic behind a Taxi Booking Application",
+    },
+    {
         id: 7,
         domain: "web",
         head: "Business Website",
